@@ -13,7 +13,7 @@ processor = BlipProcessor.from_pretrained(pretrained_model_name_or_path="Salesfo
 
 image_folder = './3_img2text/imgs' # 修改为你的图片所在文件夹路径
 # image_filename = 'img1.jpg'  # 修改为你想要处理的图片文件名
-image_filename = 'img9.jpg'  # 修改为你想要处理的图片文件名
+image_filename = 'img0.jpg'  # 修改为你想要处理的图片文件名
 image_path = os.path.join(image_folder, image_filename)
 # 打开本地图片文件并转换为 RGB 模式
 raw_image = Image.open(image_path).convert('RGB')
